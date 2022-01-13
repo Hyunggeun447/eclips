@@ -66,3 +66,7 @@
 0:0:0:0:0:0:0:1 - - [13/Jan/2022:16:55:59 +0900] "POST /firstweb/LifeCycleSrvlet HTTP/1.1" 500 1482
 0:0:0:0:0:0:0:1 - - [13/Jan/2022:16:56:16 +0900] "POST /firstweb/LifeCycleSrvlet HTTP/1.1" 200 18
 0:0:0:0:0:0:0:1 - - [13/Jan/2022:16:56:17 +0900] "GET /firstweb/LifeCycleSrvlet HTTP/1.1" 200 206
+127.0.0.1 - - [13/Jan/2022:17:19:01 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Jan/2022:17:19:01 +0900] "GET /firstweb/header HTTP/1.1" 200 763
+127.0.0.1 - - [13/Jan/2022:17:21:23 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Jan/2022:17:21:24 +0900] "GET /firstweb/header HTTP/1.1" 200 763
