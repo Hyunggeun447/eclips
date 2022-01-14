@@ -8,7 +8,7 @@
 </head>
 <body>
 hello
-<%-- <%
+<%
 	System.out.println("_jspService()");
 %>
 
@@ -20,7 +20,7 @@ public void jspInit() {
 public void jspDestroy() {
 	System.out.println("jspDestroy()");
 }
-%> --%>
+%>
 
 </body>
 </html>
