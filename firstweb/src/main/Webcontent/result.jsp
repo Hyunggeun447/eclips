@@ -8,12 +8,14 @@
 </head>
 <body>
 123456
+<br>
 <%
 	int v1 = (int)request.getAttribute("v1");
 	int v2 = (int)request.getAttribute("v2");
 	int result = (int)request.getAttribute("result");
 %>
 
-<%=v1 %>+<%=v2 %>=<%=result %>
+<%=v1 %>+<%=v2 %>=<%=result %><br><br>
+El 표기법 : ${v1 } + ${v2 } = ${result } 
 </body>
 </html>
